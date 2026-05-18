@@ -1,1 +1,32 @@
+# S3 AccessDenied Troubleshooting Lab
 
+## Objective
+Simulated and resolved AWS S3 AccessDenied errors using IAM policies and AWS CLI.
+
+## Services Used
+- Amazon S3
+- AWS IAM
+- AWS CLI
+
+## Problem
+IAM user could not upload files to S3 bucket due to missing permissions.
+
+## Root Cause
+The IAM user did not have required S3 access policies attached.
+
+## Troubleshooting Steps
+1. Configured AWS CLI
+2. Attempted S3 upload
+3. Observed AccessDenied error
+4. Checked IAM permissions
+5. Attached AmazonS3FullAccess policy
+6. Verified successful upload
+
+## Resolution
+Successfully uploaded files to S3 after fixing IAM permissions.
+
+## Skills Learned
+- IAM troubleshooting
+- AWS CLI
+- S3 permissions
+- Cloud debugging
